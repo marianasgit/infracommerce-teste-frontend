@@ -1,0 +1,21 @@
+header {
+    width: 100%;
+    height: 2em;
+    font-weight: bold;
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (min-width: 600px) {
+    header {
+        font-size: 0.5em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        font-size: 0.5em;
+    }
+}
